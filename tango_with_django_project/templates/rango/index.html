@@ -34,9 +34,9 @@
 
         <div>
             <h2>Most Viewed Pages</h2>
-            {% if top_pages %}
+            {% if pages %}
             <ul>
-                {% for page in top_pages %}
+                {% for page in pages %}
                 <li>
                     <a href="{{ page.url }}">{{ page.title }}</a>
                 </li>
