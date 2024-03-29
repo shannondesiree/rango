@@ -1,5 +1,5 @@
-asgiref==3.7.2
+asgiref==3.8.1
 Django==5.0.3
-Pillow==5.4.1
-pytz==2024.1
+pillow==10.2.0
 sqlparse==0.4.4
+typing_extensions==4.10.0
